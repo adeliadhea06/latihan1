@@ -42,22 +42,20 @@ Download sesuai dengan bit (32 bit atau 64 bit) agar laptop anda support. Selesa
 
   ![image](https://user-images.githubusercontent.com/115794875/196407829-698a1f14-cf09-4892-a7c9-f2f85fe3708e.png)
 
-- Buatlah direktori baru dengan menggunakan perintah " mkdir lab_pemrograman1 "  LALU *" cd lab_pemrograman1![image](https://user-images.githubusercontent.com/115794875/196405271-0d9690a2-2645-4af7-88f9-b7a950df3eb0.png)
-
+- Buatlah direktori baru dengan menggunakan perintah " mkdir lab_pemrograman "  LALU *" cd lab_pemrograman![image](https://user-images.githubusercontent.com/115794875/196408140-be11f231-fd5d-4e92-bb75-19cdc0200807.png)
  ##### Cara penggunaan git dengan perintah daasar git init fungsi  perintahnya  untuk membuat repository local 
 
 - Lalu jalankan perintah git init untuk membuat membuat file kosong berformat GIT. File ini fungsinya untuk menyimpan semua perubahan pada working directory dan file ini terbentuknya hidden.
  
- ![image](https://user-images.githubusercontent.com/115794875/196405685-24dc6a33-3881-4b78-81e9-ff393505054c.png)
+ ![image](https://user-images.githubusercontent.com/115794875/196408313-945fe242-473b-4bd4-9d8e-86fde194bb36.png)
 
 
--  Lalu buat 1 file baru bernama README.md, dengan memasukan perintah _echo “#latihan1” >> README.md. Lalu untuk melihat file ketik perintah “ls 
+-  Lalu buat 1 file baru bernama README.md, dengan memasukan perintah echo “#latihan1” >> README.md. Lalu untuk melihat file ketik perintah “ls 
 
- ![image](https://user-images.githubusercontent.com/115794875/196406134-dad69118-3d3b-400b-96df-c0234d331dc6.png)
+![image](https://user-images.githubusercontent.com/115794875/196408604-56ff4a95-1d6b-4c70-94bf-487a15eb245c.png)
  ##### Cara penggunaan git dengan perintah dasar git add  fungsi perintahnya untuk menambahkan file baru, atau perubahan pada file pada staging sebelum proses commit
 - Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add. Dengan perintah $ git add README.md. Kalau ingin melihat infonya ketik perintah git status.
- ![image](https://user-images.githubusercontent.com/115794875/196406471-5b52a875-0002-4e1e-81bd-36c61ec38dd8.png)
-
+ ![image](https://user-images.githubusercontent.com/115794875/196408811-212ab03e-fe7c-426b-b65b-40e51e850381.png)
 
 - Untuk menyimpan perubahan yang ada kedalam database gunakan perintah git commit -m “komentar commit"
   ![67557721-cadd1e80-f73f-11e9-8f44-dc52f8676eb3](https://user-images.githubusercontent.com/115677959/195979372-25d6dfbd-f125-4b89-9d0a-d4d48f5efc75.png)
@@ -70,21 +68,21 @@ Nah di Quick Setup nanti ada url github kita, url tersebut untuk perintah_ “gi
  ##### Cara penggunaan git dengan perintah dasar  git remote add origin [url], perintah untuk menambahkan remote server/reopsitory server pada local repositry (working directory)
 
 - Sudah mengetahui url githubnya lalu ketik perintah git remote add origin [url],urlnya diganti dengan url github anda https://github.com/adeliadhea06/latihan1.git
-   ![image](https://user-images.githubusercontent.com/115794875/196406965-c63cd2d7-14ab-4717-a5a5-98638d9a011a.png)
+   ![image](https://user-images.githubusercontent.com/115794875/196409020-1f3390a2-bd5f-4064-84d1-cd74bd5973be.png)
 
 
  ##### Cara penggunaan git dengan perintah dasar git push -u origin master, perintah untuk mengirim perubahan pada repository local menuju server repository
 
 - Untuk  mengirim perubahan pada local repository ke server gunakan perintah “git push -u origin master”. Ingat pada langkah ini kita harus memasukan username dan password gethub.
-  ![image](https://user-images.githubusercontent.com/115794875/196407237-8841f677-981f-4b76-ba87-5209f348bddd.png)
+  ![image](https://user-images.githubusercontent.com/115794875/196409152-efda3b26-3819-455f-9f2c-79f3ecd4dfd4.png)
 
  ##### Cara penggunaan git dengan perintah dasar  git clone [url], perintah untuk membuat working directory yang diambil dari repositry sever.
 
 - Kalau ingin melakukan cloning, gunakan perintah git clone [url], urlnya diganti dengan url github anda https://github.com/adeliadhea06/latihan1.git . Jika ingin masuk kedirektorti gunakan perintah “cd [nama direktori anda]”, dan jika ingin melihat semua isi direektori gunakan perintah “ls -1"
-  ![image](https://user-images.githubusercontent.com/115794875/196407425-019df087-b5ae-4bfa-82b9-ca0eb91436f3.png)
+ ![image](https://user-images.githubusercontent.com/115794875/196409284-86a3de99-bdf6-4df6-b9df-bbd183f54d4e.png)
 
 
--  Selesai Jika ingin melihat hasilnya cek di  laman gethub arahkan ke repositorinya
+-  Selesai Jika ingin melihat hasilnya cek di laman gethub arahkan ke repositorinya
   
 #### *FILE README.md tersebut masih kosong jikalau anda ingin mengisi kekosongan file tersebut silahkan klik saja icon pensil yang berada di kanan atas*.
 ### *Terimakasih*
