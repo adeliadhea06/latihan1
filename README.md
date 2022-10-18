@@ -40,7 +40,7 @@ Download sesuai dengan bit (32 bit atau 64 bit) agar laptop anda support. Selesa
       *$ git config --global user.email “email_user”*
       *$ git config --global user.name “nama_user”*
 
-  ![image](https://user-images.githubusercontent.com/115794875/196405029-f57131c5-0f66-4efa-b879-20d102d072cf.png)
+  ![image](https://user-images.githubusercontent.com/115794875/196407829-698a1f14-cf09-4892-a7c9-f2f85fe3708e.png)
 
 - Buatlah direktori baru dengan menggunakan perintah " mkdir lab_pemrograman1 "  LALU *" cd lab_pemrograman1![image](https://user-images.githubusercontent.com/115794875/196405271-0d9690a2-2645-4af7-88f9-b7a950df3eb0.png)
 
