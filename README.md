@@ -20,11 +20,11 @@ Download sesuai dengan bit (32 bit atau 64 bit) agar laptop anda support. Selesa
 
 - Ini adalah tampilan pertama setelah kalian selesai membuat akun git
 
-![Screenshot (13)](https://user-images.githubusercontent.com/115677959/195978469-53789f6c-4d88-4b94-ac44-77d8c05be1f0.png)
+![Screenshot (22)](https://user-images.githubusercontent.com/115794875/196403714-7e6d2c0b-477f-43b2-a5e9-ce0fd1da6705.png)
 
 - Langkah selanjutnya nanti anda akan dialihkan ke tab baru untuk membuat repositori baru, isi susuai inspirasi anda setelah selesai klik buat repositori. 
 
- ![Screenshot (14)](https://user-images.githubusercontent.com/115677959/195978342-860c1ebf-98a0-470c-8586-272e72bfc79d.png)
+ ![Screenshot (23)](https://user-images.githubusercontent.com/115794875/196402959-28f8a634-2ccd-4388-b476-b86711af9d37.png)
 
 -  Lalu nanti di tab baru ada url, url ini akan digunakan untuk remote GitHub.
 
@@ -40,26 +40,23 @@ Download sesuai dengan bit (32 bit atau 64 bit) agar laptop anda support. Selesa
       *$ git config --global user.email “email_user”*
       *$ git config --global user.name “nama_user”*
 
-  ![Screenshot (21)](https://user-images.githubusercontent.com/115677959/195978719-d22ef8c7-0654-47b5-bc06-0ef830e067d6.png)
+  ![image](https://user-images.githubusercontent.com/115794875/196405029-f57131c5-0f66-4efa-b879-20d102d072cf.png)
 
-
-- Buatlah direktori baru dengan menggunakan perintah " mkdir lab_pemrograman1 "  LALU *" cd lab_pemrograman1![Screenshot (22)](https://user-images.githubusercontent.com/115677959/195978992-de8cc7b2-e91a-45b7-9c71-d8c019d9b6c8.png)
- "*.
+- Buatlah direktori baru dengan menggunakan perintah " mkdir lab_pemrograman1 "  LALU *" cd lab_pemrograman1![image](https://user-images.githubusercontent.com/115794875/196405271-0d9690a2-2645-4af7-88f9-b7a950df3eb0.png)
 
  ##### Cara penggunaan git dengan perintah daasar git init fungsi  perintahnya  untuk membuat repository local 
 
 - Lalu jalankan perintah git init untuk membuat membuat file kosong berformat GIT. File ini fungsinya untuk menyimpan semua perubahan pada working directory dan file ini terbentuknya hidden.
  
-   ![Screenshot (23)](https://user-images.githubusercontent.com/115677959/195979071-05dae59d-5418-4612-bf24-c4f39c767a11.png)
+ ![image](https://user-images.githubusercontent.com/115794875/196405685-24dc6a33-3881-4b78-81e9-ff393505054c.png)
 
 
 -  Lalu buat 1 file baru bernama README.md, dengan memasukan perintah _echo “#latihan1” >> README.md. Lalu untuk melihat file ketik perintah “ls 
 
-    ![Screenshot (24)](https://user-images.githubusercontent.com/115677959/195979189-8f39f73d-dcea-4d35-982d-d84ddefad965.png)
-
+ ![image](https://user-images.githubusercontent.com/115794875/196406134-dad69118-3d3b-400b-96df-c0234d331dc6.png)
  ##### Cara penggunaan git dengan perintah dasar git add  fungsi perintahnya untuk menambahkan file baru, atau perubahan pada file pada staging sebelum proses commit
 - Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add. Dengan perintah $ git add README.md. Kalau ingin melihat infonya ketik perintah git status.
-  ![Screenshot (26)](https://user-images.githubusercontent.com/115677959/195979269-80794fee-01bd-4fab-b200-a13256253af6.png)
+ ![image](https://user-images.githubusercontent.com/115794875/196406471-5b52a875-0002-4e1e-81bd-36c61ec38dd8.png)
 
 
 - Untuk menyimpan perubahan yang ada kedalam database gunakan perintah git commit -m “komentar commit"
@@ -72,19 +69,19 @@ Nah di Quick Setup nanti ada url github kita, url tersebut untuk perintah_ “gi
 
  ##### Cara penggunaan git dengan perintah dasar  git remote add origin [url], perintah untuk menambahkan remote server/reopsitory server pada local repositry (working directory)
 
-- Sudah mengetahui url githubnya lalu ketik perintah git remote add origin [url],urlnya diganti dengan url github anda https://github.com/Hazelnuts22/Latihan_1.git
-   ![Screenshot (8-)](https://user-images.githubusercontent.com/115677959/195979558-eb6c7913-ade9-4381-8584-d3ad396d119f.png)
+- Sudah mengetahui url githubnya lalu ketik perintah git remote add origin [url],urlnya diganti dengan url github anda https://github.com/adeliadhea06/latihan1.git
+   ![image](https://user-images.githubusercontent.com/115794875/196406965-c63cd2d7-14ab-4717-a5a5-98638d9a011a.png)
 
 
  ##### Cara penggunaan git dengan perintah dasar git push -u origin master, perintah untuk mengirim perubahan pada repository local menuju server repository
 
-- Untuk  mengirim perubahan pada local repository ke server gunakan perintah “git push -u origin master”. Ingat pada langkah ini kita harus memasukan usernam dan pasword gethub.
-   ![git_push](https://user-images.githubusercontent.com/115677959/195979685-82932b67-cc7a-458a-beb6-4c6a4a12612a.png)
+- Untuk  mengirim perubahan pada local repository ke server gunakan perintah “git push -u origin master”. Ingat pada langkah ini kita harus memasukan username dan password gethub.
+  ![image](https://user-images.githubusercontent.com/115794875/196407237-8841f677-981f-4b76-ba87-5209f348bddd.png)
 
  ##### Cara penggunaan git dengan perintah dasar  git clone [url], perintah untuk membuat working directory yang diambil dari repositry sever.
 
-- Kalau ingin melakukan cloning, gunakan perintah git clone [url], urlnya diganti dengan url github anda https://github.com/Hazelnuts22/Latihan_1.git . Jika ingin masuk kedirektorti gunakan perintah “cd [nama direktori anda]”, dan jika ingin melihat semua isi direektori gunakan perintah “ls -1"
-  ![git_push](https://user-images.githubusercontent.com/115677959/195979779-f936d543-9d8c-49e7-8e8c-dcedaa119557.png)
+- Kalau ingin melakukan cloning, gunakan perintah git clone [url], urlnya diganti dengan url github anda https://github.com/adeliadhea06/latihan1.git . Jika ingin masuk kedirektorti gunakan perintah “cd [nama direktori anda]”, dan jika ingin melihat semua isi direektori gunakan perintah “ls -1"
+  ![image](https://user-images.githubusercontent.com/115794875/196407425-019df087-b5ae-4bfa-82b9-ca0eb91436f3.png)
 
 
 -  Selesai Jika ingin melihat hasilnya cek di  laman gethub arahkan ke repositorinya
