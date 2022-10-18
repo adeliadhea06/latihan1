@@ -74,7 +74,7 @@ Nah di Quick Setup nanti ada url github kita, url tersebut untuk perintah_ “gi
  ##### Cara penggunaan git dengan perintah dasar git push -u origin master, perintah untuk mengirim perubahan pada repository local menuju server repository
 
 - Untuk  mengirim perubahan pada local repository ke server gunakan perintah “git push -u origin master”. Ingat pada langkah ini kita harus memasukan username dan password gethub.
-- ![image](https://user-images.githubusercontent.com/115794875/196409152-efda3b26-3819-455f-9f2c-79f3ecd4dfd4.png)
+![image](https://user-images.githubusercontent.com/115794875/196409152-efda3b26-3819-455f-9f2c-79f3ecd4dfd4.png)
 
  ##### Cara penggunaan git dengan perintah dasar  git clone [url], perintah untuk membuat working directory yang diambil dari repositry sever.
 
